@@ -32,7 +32,7 @@ Las consecuencias son casi las mismas: Spectre abre una trampilla para el acceso
 
 Ahora, si bien en primera instancia algunos de los importantes proveedores como ARM no son vulnerables a dichos fallos, más tarde fueron identificados nuevas variantes de estos mismo, aumentando el numero de estos de 2 a 27 vulnerabilidades. Entonces con el descubrimiento de estas variaciones, los que no podía afectar a ARM, lo logro, pero esto no es del todo oscuro, muchas de estas nuevas variaciones son incapaces de ser ejecutadas en ARM y otros proveedores, con lo cual, la tarea de darle solución o prevención a este tipo se fallas se reduce.
 
-![](https://github.com/GarciaRosasIvan/Trabajo_Final_LI_Vulnerabilidades-de-ARM-como-MCU/blob/master/Imagen%201.png) 
+![](https://media.kasperskydaily.com/wp-content/uploads/sites/88/2019/01/10094218/35c3-spectre-meltdown-2019-species.jpg) 
 
 Con el objetivo de poner fin a estas vulnerabilidades, en enero del 2018, las empresas comenzaron a lanzar parches para microcódigos de CPU, sistemas operativos y programas individuales. Por desgracia, Spectre y Meltdown son vulnerabilidades de hardware, es decir, existen a nivel de hardware, por lo que es imposible remediarlas por completo con parches de software.
 
