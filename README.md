@@ -4,6 +4,7 @@
 ![](https://tectijuana.edu.mx/wp-content/uploads/2014/11/Heading-Ing-sistemas-2048x672.png) 
 
 **Debilidades en el procesador**
+
 Los investigadores encontraron dos debilidades principales en los procesadores que podrían permitir a los atacantes leer información delicada que nunca debería abandonar la unidad de procesamiento central. Ambos problemas permiten a los atacantes leer información secreta que el procesador pone temporalmente a disposición fuera del chip.
 
 Para que los procesos informáticos se ejecuten más rápido, un chip esencialmente adivinará qué información necesita la computadora para realizar su próxima función. Eso se llama ejecución especulativa. Como adivina, esa información sensible es momentáneamente más fácil de acceder.
@@ -32,5 +33,104 @@ Las consecuencias son casi las mismas: Spectre abre una trampilla para el acceso
 Ahora, si bien en primera instancia algunos de los importantes proveedores como ARM no son vulnerables a dichos fallos, más tarde fueron identificados nuevas variantes de estos mismo, aumentando el numero de estos de 2 a 27 vulnerabilidades. Entonces con el descubrimiento de estas variaciones, los que no podía afectar a ARM, lo logro, pero esto no es del todo oscuro, muchas de estas nuevas variaciones son incapaces de ser ejecutadas en ARM y otros proveedores, con lo cual, la tarea de darle solución o prevención a este tipo se fallas se reduce.
 
 <p align="center">
-<img width="394" height="479" src="url de laa imagen aqui">
+<img width="1900" height="1080" src="https://github.com/GarciaRosasIvan/Trabajo_Final_LI_Vulnerabilidades-de-ARM-como-MCU/blob/master/Imagen%201.jpg">
 </p>
+
+Con el objetivo de poner fin a estas vulnerabilidades, en enero del 2018, las empresas comenzaron a lanzar parches para microcódigos de CPU, sistemas operativos y programas individuales. Por desgracia, Spectre y Meltdown son vulnerabilidades de hardware, es decir, existen a nivel de hardware, por lo que es imposible remediarlas por completo con parches de software.
+
+Por consiguiente, se implementó uno de los parches en el núcleo del sistema operativo de Linux, pero ralentizaba mucho el sistema, por lo que un tiempo después se eliminó del código.
+
+Spectre es conflictivo porque tiene como objetivo diferentes componentes de microarquitectura, por lo que se ha tenido que diseñar un parche aparte. Y cada uno de los parches requerirá que ciertas funciones estén desactivadas o que se realicen acciones adicionales, lo que disminuirá el nivel de rendimiento.
+
+De hecho, los parches afectan tanto al rendimiento en muchos casos que un sistema parcheado funciona más lento que uno en el que los componentes vulnerables del CPU estén desactivados.
+
+Por otra parte, debido a estas vulnerabilidades, ARM se vio en la necesidad de actuar frente a esto y promete actualizaciones de hardware y afirma que “todos sus CPU futuras serán resistentes a los ataques similares a Spectre”.
+
+Estas son buenas noticias, pero en realidad no del todo, ya que la instalación de dichos parches causara estragos evidentes en el rendimiento, por lo que la solución podría no estar al alcance de todos.
+
+Como ya fue mencionado, estas vulnerabilidades significan una gran amenaza, ya que abren la posibilidad a la filtración de información privada como contraseñas, datos bancarios ingresados e información personal, entre otros. Al ser estas vulnerabilidades que afectan es hardware, hace que evitarlo sea una tarea difícil y mucho mas para un usuario común, en otras palabras, se esta dejando al aire libre datos que podrían usarse de manera maliciosa.
+
+**Ejemplos de CPU’s vulnerables**
+
+**Spectre 1** afecta a procesadores Intel, ARM y también AMD.
+
+**Spectre 2** afecta a varios modelos ARM Cortex más actuales, ya que dispone de abreviaturas de las entradas BTB fácilmente predecibles por los atacantes.
+
+**Meltdown** afecta a los ARM Cortex A-75.
+
+**Ejemplo**
+-	Con Meltdown se puede robar contraseñas: El planteamiento es sencillo. En la ventana superior tenemos un gestor de contraseñas; nos pide la contraseña maestra para poder acceder al resto. Y en la ventana inferior, tenemos una terminal que ejecutará el código que se encargará de leer la memoria del gestor de contraseñas.
+
+**Lista de CPU’s vulnerables** 
+
+<p align="center">
+<img width="548" height="633" src="https://github.com/GarciaRosasIvan/Trabajo_Final_LI_Vulnerabilidades-de-ARM-como-MCU/blob/master/Imagen%202.png">
+</p>
+
+<p align="center">
+<img width="633" height="112" src="https://github.com/GarciaRosasIvan/Trabajo_Final_LI_Vulnerabilidades-de-ARM-como-MCU/blob/master/Imagen%203.png">
+</p>
+
+**Vulnerables a ambos Spectre/Meltdown**
+
+●	ARM Cortex-A75
+●	ARM Cortex-A72
+●	ARM Cortex-A57
+●	ARM Cortex-A15
+
+**Vulnerables a solamente a Spectre** 
+
+●	ARM Cortex-A17
+●	ARM Cortex-A12
+●	ARM Cortex-A9
+●	ARM Cortex-A8
+●	ARM Cortex-R8
+●	ARM Cortex-R7
+●	ARM Cortex-A73
+
+**Soluciones existentes o temporales para mitigar la vulnerabilidad de ARM sobre Spectre y Meltdown**
+
+Recordemos que ARM es solo el procesador, y en base a esto hay diferentes maneras de trabajar sobre estas vulnerabilidades que son dependientes del sistema operativo.
+
+No existe una solución genérica para mitigar la vulnerabilidad, se deben aplicar los parches de seguridad liberados progresivamente por los fabricantes, la mayoría de estos cambios requieren un reinicio del sistema.
+
+●	Microsoft: Liberado el parche para windows 10, en el boletín del próximo martes 9 de enero serán liberados los parches para los demás sistemas operativos.
+Guía oficial de mitigación para Windows: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/ADV180002
+
+●	Actualización: Microsoft ha liberado parches de emergencia a través del sitio oficial: https://support.microsoft.com/en-us/help/4072698/windows-server-guidance-to-protect-against-the-speculative-execution-s
+
+●	MacOS: Solucionado desde la versión 10.13.2 para macOS High Sierra.
+
+●	Android: Google ha liberado los parches para dispositivos Pixel y Nexus, los demás modelos están sujetos a la liberación de parches por sus respectivos fabricantes.
+
+●	Linux: Parches disponibles, ejecutar proceso según la distribución.
+
+●	Redhat (CentOS, Fedora, Oracle Linux)
+sudo yum update
+sudo dnf update
+reiniciar el sistema
+sudo reboot
+
+●	Debian (Ubuntu / Mint)
+sudo apt-get update
+sudo apt-get update
+reiniciar el sistema
+sudo reboot
+
+**Bibliografías**
+
+**Perekalin, A. (2019). Las vulnerabilidades de Spectre y Meltdown en los CPU. ¿Qué depara el 2019? Recuperado de** https://latam.kaspersky.com/blog/35c3-spectre-meltdown-2019/13925/
+
+**Rodriguez, D. (2018). Meltdown y Spectre | Vulnerabilidades críticas en Intel, AMD y ARM. Recuperado de** https://shieldnow.co/2018/01/03/meltdown-y-spectre-vulnerabilidades-criticas-en-intel-amd-y-arm/
+
+**arm Developer. (s. f.). Arm Security Updates. Recuperado de https://developer.arm.com/support/arm-security-updates
+
+**Wong, Dr. A. (2018). Complete List Of CPUs Vulnerable To Meltdown / Spectre Rev. 8.0. Recuperado de** https://www.techarp.com/guides/complete-meltdown-spectre-cpu-list/
+
+**Wong, Dr. A. (2018a). Apple, ARM & Intel CPUs Affected By Meltdown & Spectre. Recuperado de** https://www.techarp.com/guides/complete-meltdown-spectre-cpu-list/4/#arm
+
+**ProjectBeta. (2018). Lista de procesadores ARM vulnerables a Spectre y Meltdown. Recuperado de** https://noticias.top10games.es/noticias/lista-de-procesadores-arm-vulnerables/
+
+**Omicrono. (2018a). Así se puede usar Meltdown para robar contraseñas en tiempo real. Recuperado de** https://www.elespanol.com/omicrono/software/20180104/puede-usar-meltdown-robar-contrasenas-tiempo-real/274723591_0.html
+
+**Delgado, A. (2018). Así son Spectre y Meltdown, las graves vulnerabilidades que afectan a Intel, pero también de manera limitada a AMD y ARM. Recuperado de** https://www.geeknetic.es/Noticia/13084/Asi-son-Spectre-y-Meltdown-las-graves-vulnerabilidades-que-afectan-a-Intel-pero-tambien-de-manera-limitada-a-AMD-y-ARM.html
