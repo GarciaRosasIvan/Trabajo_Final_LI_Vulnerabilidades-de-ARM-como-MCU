@@ -126,7 +126,7 @@ sudo reboot
 
 **Rodriguez, D. (2018). Meltdown y Spectre | Vulnerabilidades críticas en Intel, AMD y ARM. Recuperado de:** https://shieldnow.co/2018/01/03/meltdown-y-spectre-vulnerabilidades-criticas-en-intel-amd-y-arm/
 
-**arm Developer. (s. f.). Arm Security Updates. Recuperado de: https://developer.arm.com/support/arm-security-updates
+**arm Developer. (s. f.). Arm Security Updates. Recuperado de:** https://developer.arm.com/support/arm-security-updates
 
 **Wong, Dr. A. (2018). Complete List Of CPUs Vulnerable To Meltdown / Spectre Rev. 8.0. Recuperado de:** https://www.techarp.com/guides/complete-meltdown-spectre-cpu-list/
 
