@@ -74,18 +74,27 @@ Como ya fue mencionado, estas vulnerabilidades significan una gran amenaza, ya q
 **Vulnerables a ambos Spectre/Meltdown**
 
 ●	ARM Cortex-A75
+
 ●	ARM Cortex-A72
+
 ●	ARM Cortex-A57
+
 ●	ARM Cortex-A15
 
 **Vulnerables a solamente a Spectre** 
 
 ●	ARM Cortex-A17
+
 ●	ARM Cortex-A12
+
 ●	ARM Cortex-A9
+
 ●	ARM Cortex-A8
+
 ●	ARM Cortex-R8
+
 ●	ARM Cortex-R7
+
 ●	ARM Cortex-A73
 
 **Soluciones existentes o temporales para mitigar la vulnerabilidad de ARM sobre Spectre y Meltdown**
