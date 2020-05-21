@@ -61,13 +61,9 @@ Como ya fue mencionado, estas vulnerabilidades significan una gran amenaza, ya q
 
 **Lista de CPU’s vulnerables** 
 
-<p align="center">
-<img width="548" height="633" src="https://github.com/GarciaRosasIvan/Trabajo_Final_LI_Vulnerabilidades-de-ARM-como-MCU/blob/master/Imagen%202.png">
-</p>
+![](https://github.com/GarciaRosasIvan/Trabajo_Final_LI_Vulnerabilidades-de-ARM-como-MCU/blob/master/Imagen%202.png) 
 
-<p align="center">
-<img width="633" height="112" src="https://github.com/GarciaRosasIvan/Trabajo_Final_LI_Vulnerabilidades-de-ARM-como-MCU/blob/master/Imagen%203.png">
-</p>
+![](https://github.com/GarciaRosasIvan/Trabajo_Final_LI_Vulnerabilidades-de-ARM-como-MCU/blob/master/Imagen%203.png) 
 
 **Vulnerables a ambos Spectre/Meltdown**
 
