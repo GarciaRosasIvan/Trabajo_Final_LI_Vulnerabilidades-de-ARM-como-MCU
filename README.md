@@ -126,7 +126,8 @@ sudo reboot
 
 **Rodriguez, D. (2018). Meltdown y Spectre | Vulnerabilidades críticas en Intel, AMD y ARM. Recuperado de** https://shieldnow.co/2018/01/03/meltdown-y-spectre-vulnerabilidades-criticas-en-intel-amd-y-arm/
 
-**arm Developer. (s. f.). Arm Security Updates. Recuperado de** https://developer.arm.com/support/arm-security-updates
+**arm Developer. (s. f.). Arm Security Updates. Recuperado de** 
+https://developer.arm.com/support/arm-security-updates
 
 **Wong, Dr. A. (2018). Complete List Of CPUs Vulnerable To Meltdown / Spectre Rev. 8.0. Recuperado de** https://www.techarp.com/guides/complete-meltdown-spectre-cpu-list/
 
@@ -137,7 +138,8 @@ https://www.techarp.com/guides/complete-meltdown-spectre-cpu-list/4/#arm
 
 **Omicrono. (2018a). Así se puede usar Meltdown para robar contraseñas en tiempo real. Recuperado de** https://www.elespanol.com/omicrono/software/20180104/puede-usar-meltdown-robar-contrasenas-tiempo-real/274723591_0.html
 
-**Delgado, A. (2018). Así son Spectre y Meltdown, las graves vulnerabilidades que afectan a Intel, pero también de manera limitada a AMD y ARM. Recuperado de** https://www.geeknetic.es/Noticia/13084/Asi-son-Spectre-y-Meltdown-las-graves-vulnerabilidades-que-afectan-a-Intel-pero-tambien-de-manera-limitada-a-AMD-y-ARM.html
+**Delgado, A. (2018). Así son Spectre y Meltdown, las graves vulnerabilidades que afectan a Intel, pero también de manera limitada a AMD y ARM. Recuperado de** 
+https://www.geeknetic.es/Noticia/13084/Asi-son-Spectre-y-Meltdown-las-graves-vulnerabilidades-que-afectan-a-Intel-pero-tambien-de-manera-limitada-a-AMD-y-ARM.html
 
 **Presentado por**
 
