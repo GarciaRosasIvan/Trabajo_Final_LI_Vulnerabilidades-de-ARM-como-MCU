@@ -136,7 +136,8 @@ https://www.techarp.com/guides/complete-meltdown-spectre-cpu-list/4/#arm
 
 **ProjectBeta. (2018). Lista de procesadores ARM vulnerables a Spectre y Meltdown. Recuperado de** https://noticias.top10games.es/noticias/lista-de-procesadores-arm-vulnerables/
 
-**Omicrono. (2018a). Así se puede usar Meltdown para robar contraseñas en tiempo real. Recuperado de** https://www.elespanol.com/omicrono/software/20180104/puede-usar-meltdown-robar-contrasenas-tiempo-real/274723591_0.html
+**Omicrono. (2018a). Así se puede usar Meltdown para robar contraseñas en tiempo real. Recuperado de**
+https://www.elespanol.com/omicrono/software/20180104/puede-usar-meltdown-robar-contrasenas-tiempo-real/274723591_0.html
 
 **Delgado, A. (2018). Así son Spectre y Meltdown, las graves vulnerabilidades que afectan a Intel, pero también de manera limitada a AMD y ARM. Recuperado de** 
 https://www.geeknetic.es/Noticia/13084/Asi-son-Spectre-y-Meltdown-las-graves-vulnerabilidades-que-afectan-a-Intel-pero-tambien-de-manera-limitada-a-AMD-y-ARM.html
