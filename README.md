@@ -124,7 +124,7 @@ sudo reboot
 
 **Perekalin, A. (2019). Las vulnerabilidades de Spectre y Meltdown en los CPU. ¿Qué depara el 2019? Recuperado de:** https://latam.kaspersky.com/blog/35c3-spectre-meltdown-2019/13925/
 
-**Rodriguez, D. (2018). Meltdown y Spectre | Vulnerabilidades críticas en Intel, AMD y ARM. Recuperado de:** https://shieldnow.co/2018/01/03/meltdown-y-spectre-vulnerabilidades-criticas-en-intel-amd-y-arm/
+**Rodriguez, D. (2018). Meltdown y Spectre. Vulnerabilidades críticas en Intel, AMD y ARM. Recuperado de:** https://shieldnow.co/2018/01/03/meltdown-y-spectre-vulnerabilidades-criticas-en-intel-amd-y-arm/
 
 **arm Developer. (s. f.). Arm Security Updates. Recuperado de:** https://developer.arm.com/support/arm-security-updates
 
