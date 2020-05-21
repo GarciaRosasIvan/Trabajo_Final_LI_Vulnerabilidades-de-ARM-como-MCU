@@ -130,7 +130,8 @@ sudo reboot
 
 **Wong, Dr. A. (2018). Complete List Of CPUs Vulnerable To Meltdown / Spectre Rev. 8.0. Recuperado de** https://www.techarp.com/guides/complete-meltdown-spectre-cpu-list/
 
-**Wong, Dr. A. (2018a). Apple, ARM & Intel CPUs Affected By Meltdown & Spectre. Recuperado de** https://www.techarp.com/guides/complete-meltdown-spectre-cpu-list/4/#arm
+**Wong, Dr. A. (2018a). Apple, ARM & Intel CPUs Affected By Meltdown & Spectre. Recuperado de** 
+https://www.techarp.com/guides/complete-meltdown-spectre-cpu-list/4/#arm
 
 **ProjectBeta. (2018). Lista de procesadores ARM vulnerables a Spectre y Meltdown. Recuperado de** https://noticias.top10games.es/noticias/lista-de-procesadores-arm-vulnerables/
 
