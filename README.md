@@ -61,9 +61,9 @@ Como ya fue mencionado, estas vulnerabilidades significan una gran amenaza, ya q
 
 **Lista de CPU’s vulnerables** 
 
-![](https://github.com/GarciaRosasIvan/Trabajo_Final_LI_Vulnerabilidades-de-ARM-como-MCU/blob/master/Imagen%202.png) 
+![](https://drive.google.com/file/d/1bCeblvGkfkgKup38lOdzc35tYmOqMsZ8/view?usp=sharing) 
 
-![](https://github.com/GarciaRosasIvan/Trabajo_Final_LI_Vulnerabilidades-de-ARM-como-MCU/blob/master/Imagen%203.png) 
+![](https://drive.google.com/file/d/1zWJiz39wtF5sRuryjgmBYV3dEGAzkOto/view?usp=sharing) 
 
 **Vulnerables a ambos Spectre/Meltdown**
 
@@ -126,7 +126,7 @@ sudo reboot
 
 **Rodriguez, D. (2018). Meltdown y Spectre | Vulnerabilidades críticas en Intel, AMD y ARM. Recuperado de** https://shieldnow.co/2018/01/03/meltdown-y-spectre-vulnerabilidades-criticas-en-intel-amd-y-arm/
 
-**arm Developer. (s. f.). Arm Security Updates. Recuperado de https://developer.arm.com/support/arm-security-updates
+**arm Developer. (s. f.). Arm Security Updates. Recuperado de** https://developer.arm.com/support/arm-security-updates
 
 **Wong, Dr. A. (2018). Complete List Of CPUs Vulnerable To Meltdown / Spectre Rev. 8.0. Recuperado de** https://www.techarp.com/guides/complete-meltdown-spectre-cpu-list/
 
