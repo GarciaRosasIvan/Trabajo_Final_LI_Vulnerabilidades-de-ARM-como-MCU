@@ -63,7 +63,7 @@ Como ya fue mencionado, estas vulnerabilidades significan una gran amenaza, ya q
 
 ![](https://media.top10games.es/noticias/2018/01/28142258/Sin-t%C3%ADtulo-1-4.jpg) 
 
-![](https://github.com/GarciaRosasIvan/Trabajo_Final_LI_Vulnerabilidades-de-ARM-como-MCU/blob/master/Imagen%203.png) 
+![](https://westoahu.hawaii.edu/cyber/wp-content/uploads/2018/02/Spectre-Meltdown-List.png) 
 
 **Vulnerables a ambos Spectre/Meltdown**
 
