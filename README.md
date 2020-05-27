@@ -1,7 +1,14 @@
 # Vulnerabilidades de ARM como MCU
 
 
-![](https://tectijuana.edu.mx/wp-content/uploads/2014/11/Heading-Ing-sistemas-2048x672.png) 
+![](https://tectijuana.edu.mx/wp-content/uploads/2014/11/Heading-Ing-sistemas-2048x672.png)
+
+**Antes de comenzar vamos con una pequeña introducción**
+
+La presente investigación se refiere al tema de las vulnerabilidades de ARM como MCU ya que en los últimos años ha sido un procesador muy usado dentro de los microcontroladores los cuales están facilitando la creación y administración de nuevas tecnologías en el mercado. Tomando en cuenta esto el hecho de que tenga vulnerabilidades es muy perjudicial para los productos más si ponen el peligro la información que se maneja de las tecnologías en las que se usa.
+
+Para entender un poco más sobre las vulnerabilidades que tiene hemos realizado una investigación donde tocamos lo puntos más importantes como cuál es la debilidad de ARM, como afecta esto a las aplicaciones que se crean, así como las soluciones que se tienen para evitar que nuestros proyectos sean atacados.
+
 
 **Debilidades en el procesador**
 
@@ -119,6 +126,10 @@ sudo apt-get update
 sudo apt-get update
 reiniciar el sistema
 sudo reboot
+
+**Como conclusión**
+
+Las vulnerabilidades de ARM ponen en peligro la información que almacenamos dentro de los microcontroladores poniendo en riesgo desde información personal que se almacene de empleados o personas hasta la misma integridad de la tecnología que se haya creado. Por suerte la comunidad que utiliza estos procesadores se dio cuenta y no solo se tomó el tiempo de mostrar como atacar ARM, sino que también se tomó el tiempo de buscar diferentes soluciones y parches para evitar el robo de información que se puede usar en Meltdown y Spectre. En el caso de que se llegue a usar un procesar ARM tenemos la opción de consultar las tablas para revisar si los modelos con los que contamos son vulnerables y hasta qué grado.
 
 **Bibliografías**
 
